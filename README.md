@@ -16,3 +16,4 @@ Le projet est réalisé par binôme et comprend plusieurs livrables:
 - un code Arduino permettant l'acquisition de la mesure de résistance ainsi que le contrôle des fonctionnalités du shield (affichage sur l'écran OLED, commmunication Bluetooth, encodeur rotatif, potentiomètre digital)
 - une application Android APK
 - une datasheet du capteur
+
