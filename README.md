@@ -4,7 +4,7 @@ Projet **capteur de déformation low-tech à base de graphite** dans le cadre de
 
 Ce fichier décrit toutes les étapes nécessaires à la réalisation du capteur: 
 1. le schéma électrique sur le logiciel *LTSpice* afin de simuler la réponse idéale du capteur
-2. la réalisation du shield avec le logiciel *KICAD* 
+2. la réalisation du shield avec le logiciel *KiCad* 
 3. le code Arduino
 4. l'application APK pour téléphone permettant l'envoi et la réception de données avec le capteur via un module Bluetooth
 5. le protocole du banc de test
@@ -17,7 +17,7 @@ Le projet est réalisé par binôme et comprend plusieurs livrables:
 - une application Android APK
 - une datasheet du capteur
 
-Pour mener à bien ce projet, nous avons simulé le capteur sur *LTSpice*, puis rédigé le code Arduino fonctionnel permettant la mesure de la résistance du capteur et le contrôle des autres éléments du shield (écran OLED, module Bluetooth, encodeur rotatif, potentiomètre digital). Nous avons par la suite branché tous les éléments sur une breadboard reliée à une carte Arduino Uno afin de tester la fonctionnalité du code. Nous avons par la suite designé en parallèle le PCB avec le logiciel *KICAD* et l'application téléphone APK grâce au logiciel *MIT APP Inventor*. Après avoir designé le PCB, nous l'avons fabriqué et avons assemblé les composants dessus en les soudant. Enfin, nous avons caractérisé et testé le capteur en déposant du graphite issu de crayon à papier dessus. Nous avons par la suite mesuré la variation de résistance relative du capteur en fonction de sa déformation. 
+Pour mener à bien ce projet, nous avons simulé le capteur sur *LTSpice*, puis rédigé le code Arduino fonctionnel permettant la mesure de la résistance du capteur et le contrôle des autres éléments du shield (écran OLED, module Bluetooth, encodeur rotatif, potentiomètre digital). Nous avons par la suite branché tous les éléments sur une breadboard reliée à une carte Arduino Uno afin de tester la fonctionnalité du code. Nous avons par la suite designé en parallèle le PCB avec le logiciel *KiCad* et l'application téléphone APK grâce au logiciel *MIT APP Inventor*. Après avoir designé le PCB, nous l'avons fabriqué et avons assemblé les composants dessus en les soudant. Enfin, nous avons caractérisé et testé le capteur en déposant du graphite issu de crayon à papier dessus. Nous avons par la suite mesuré la variation de résistance relative du capteur en fonction de sa déformation. 
 
 Liste du matériel nécessaire au projet:
 - 1 carte Arduino Uno
@@ -39,6 +39,9 @@ Le document nommé Simulation_Capteur présente l'essentiel des informations li�
 
 # 3. Code Arduino 
 
-# 4. Création du PCB sur le logiciel *KICAD*
+# 4. Création du PCB sur le logiciel *KiCad*
 ## 4.1 Elaboration des symboles et empreintes
 
+Dans cette section, les symboles et empreintes des composants non initialement présents sur le logiciel *KiCad* sont présentés. 
+
+- Amplificateur Opérationnel LTC1050
