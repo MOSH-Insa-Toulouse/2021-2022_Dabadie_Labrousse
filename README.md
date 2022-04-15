@@ -45,3 +45,44 @@ Le document nommé Simulation_Capteur présente l'essentiel des informations li�
 Dans cette section, les symboles et empreintes des composants non initialement présents sur le logiciel *KiCad* sont présentés. 
 
 - Amplificateur Opérationnel LTC1050
+
+![Figure 1: Schématique LTC1050](./KiCad/LTC1050_schema.PNG "Figure 1: Schématique LTC1050")    ![Figure 2: Empreinte LTC1050](./KiCad/LTC1050_empreinte.PNG "Figure 2: Empreinte LTC1050")
+
+- Module Bluetooth HC-05
+
+![Figure 3: Schématique HC-05](./KiCad/HC05_schema.PNG "Figure 3: Schématique HC-05")    ![Figure 2: Empreinte HC-05](./KiCad/HC05_empreinte.PNG "Figure 4: Empreinte HC-05")
+
+- Ecran OLED I2C
+
+![Figure 5: Schématique OLED I2C](./KiCad/OLEDI2C_schema.PNG "Figure 5: Schématique OLEDI2C")    ![Figure 6: Empreinte OLED I2C](./KiCad/OLEDI2C_empreinte.PNG "Figure 6: Empreinte OLED I2C")
+
+- Encodeur rotatif KY-040
+
+![Figure 7: Schématique Encodeur rotatif KY-040](./KiCad/KY040_schema.PNG "Figure 7: Schématique Encodeur rotatif KY-040")    ![Figure 8: Empreinte Encodeur rotatif KY-040](./KiCad/KY040_empreinte.PNG "Figure 8: Empreinte Encodeur rotatif KY-040")
+
+- Potentiomètre digital MCP-41XXX
+
+![Figure 9: Schématique Potentiomètre digital MCP-41XXX](./KiCad/MCP41XXX_schema.PNG "Figure 9: Schématique Potentiomètre digital MCP-41XXX")    ![Figure 10: Empreinte Potentiomètre digital MCP-41XXX](./KiCad/MCP41XXX_empreinte.PNG "Figure 10: Empreinte Potentiomètre digital MCP-41XXX")
+
+## 4.2 Schéma complet
+
+Après avoir élaboré les schémas et empreintes de chaque élements, nous avons réalisé le schéma électrique complet du shield de l'Arduino en reliant les pins des élements avec ceux de la carte Arduino.
+
+![Figure 11: Schéma complet](./KiCad/Schematique_complet.PNG "Figure 11: Schéma complet")
+
+## 4.3 PCB 
+
+Suite à la réalisation du schéma, nous devons intégrer les composants sur le PCB. Nous avons conçu le PCB ci-dessous avec le logiciel KiCad.
+
+![Figure 12: Schéma complet](./KiCad/PCB_complet.PNG "Figure 12: PCB complet")
+
+## 4.4 Vue 3d du Shield
+
+L'organisation en 3d du shield réalisé est visible ci-dessous:
+- Vision du dessus
+
+![Figure 13: Vue 3d dessus shield](./KiCad/Vue_3D_dessus.PNG "Figure 13: Vue 3d dessus shield")
+
+- Vision de dessous
+
+![Figure 14: Vue 3d dessous shield](./KiCad/Vue_3D_dessous.PNG "Figure 14: Vue 3d dessous shield")
