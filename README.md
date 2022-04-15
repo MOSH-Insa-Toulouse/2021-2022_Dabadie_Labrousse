@@ -20,3 +20,15 @@ Le projet est réalisé par binôme et comprend plusieurs livrables:
 Pour mener à bien ce projet, nous avons simulé le capteur sur *LTSpice*, puis rédigé le code Arduino fonctionnel permettant la mesure de la résistance du capteur et le contrôle des autres éléments du shield (écran OLED, module Bluetooth, encodeur rotatif, potentiomètre digital). Nous avons par la suite branché tous les éléments sur une breadboard reliée à une carte Arduino Uno afin de tester la fonctionnalité du code. Nous avons par la suite designé en parallèle le PCB avec le logiciel *KICAD* et l'application téléphone APK grâce au logiciel *MIT APP Inventor*. Après avoir designé le PCB, nous l'avons fabriqué et avons assemblé les composants dessus en les soudant. Enfin, nous avons caractérisé et testé le capteur en déposant du graphite issu de crayon à papier dessus. Nous avons par la suite 
 
 Liste du matériel nécessaire au projet:
+- 1 carte Arduino Uno
+- 3 condensateurs de 100nf
+- 1 condensateur de 1µF
+- 2 résistances de 100kΩ
+- 1 résistance de 10kΩ
+- 1 résistance de 1kΩ
+- 1 AOP LTC1050
+- 1 module Bluetooth HC-05
+- 1 écran OLED
+- 1 encodeur rotatif KY-040
+- 1 potentiomètre digital MCP-41XXX
+
