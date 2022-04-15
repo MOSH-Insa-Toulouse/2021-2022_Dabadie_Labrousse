@@ -48,21 +48,26 @@ Dans cette section, les symboles et empreintes des composants non initialement p
 
 ![Figure 1: Schématique LTC1050](./KiCad/LTC1050_schema.PNG "Figure 1: Schématique LTC1050")    ![Figure 2: Empreinte LTC1050](./KiCad/LTC1050_empreinte.PNG "Figure 2: Empreinte LTC1050")
 
+
 - Module Bluetooth HC-05
 
 ![Figure 3: Schématique HC-05](./KiCad/HC05_schema.PNG "Figure 3: Schématique HC-05")    ![Figure 2: Empreinte HC-05](./KiCad/HC05_empreinte.PNG "Figure 4: Empreinte HC-05")
+
 
 - Ecran OLED I2C
 
 ![Figure 5: Schématique OLED I2C](./KiCad/OLEDI2C_schema.PNG "Figure 5: Schématique OLEDI2C")    ![Figure 6: Empreinte OLED I2C](./KiCad/OLEDI2C_empreinte.PNG "Figure 6: Empreinte OLED I2C")
 
+
 - Encodeur rotatif KY-040
 
 ![Figure 7: Schématique Encodeur rotatif KY-040](./KiCad/KY040_schema.PNG "Figure 7: Schématique Encodeur rotatif KY-040")    ![Figure 8: Empreinte Encodeur rotatif KY-040](./KiCad/KY040_empreinte.PNG "Figure 8: Empreinte Encodeur rotatif KY-040")
 
+
 - Potentiomètre digital MCP-41XXX
 
 ![Figure 9: Schématique Potentiomètre digital MCP-41XXX](./KiCad/MCP41XXX_schema.PNG "Figure 9: Schématique Potentiomètre digital MCP-41XXX")    ![Figure 10: Empreinte Potentiomètre digital MCP-41XXX](./KiCad/MCP41XXX_empreinte.PNG "Figure 10: Empreinte Potentiomètre digital MCP-41XXX")
+
 
 ## 4.2 Schéma complet
 
@@ -88,5 +93,23 @@ L'organisation en 3d du shield réalisé est visible ci-dessous:
 ![Figure 14: Vue 3d dessous shield](./KiCad/Vue_3D_dessous.PNG "Figure 14: Vue 3d dessous shield")
 
 # 5. Fabrication du shield
-## 5.1 Fabrication du PCB
 
+Le circut imprimé a été réalisé à partir d'un calque du PCB.
+
+![Figure 15: Calque PCB](./KiCad/Calque_PCB.PNG "Figure 15: Calque PCB")
+
+Nous avons imprimé les motifs sur une plaquette époxy recouverte de cuivre, puis gravé les pistes conductrices. Après avoir réalisé le circuit imprimé, nous avons percé les trous et soudé les composants sur le shield afin qu'il soit fonctionnel.
+
+# 6. Application télephone APK
+
+L'application à été développé avec le logiciel *MIT App Inventor*. Elle permet d'envoyer et recevoir des données entre la carte Arduino Uno et un téléphone via le module Bluetooth HC-05.
+L'application est dotée de 3 fonctionnalités:
+- Affichage de la Résistance du capteur en temps réel
+- Affichage de la tension de sortie du circuit transimpédance en temps réel
+- Affichage de la variation de résistance du capteur sous forme de graphique en temps réel
+
+# 6. Banc de test
+# 6.1 Description du banc de test
+# 6.2 Résultats et analyse
+# 6.3 Discussion 
+# 7. Auteurs
