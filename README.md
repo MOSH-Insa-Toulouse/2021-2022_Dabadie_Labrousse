@@ -86,3 +86,7 @@ L'organisation en 3d du shield réalisé est visible ci-dessous:
 - Vision de dessous
 
 ![Figure 14: Vue 3d dessous shield](./KiCad/Vue_3D_dessous.PNG "Figure 14: Vue 3d dessous shield")
+
+# 5. Fabrication du shield
+## 5.1 Fabrication du PCB
+
