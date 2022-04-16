@@ -123,6 +123,7 @@ L'application est dotée de 3 fonctionnalités:
 
 # 7. Banc de test
 # 7.1 Description du banc de test
+Pour effectuer nos tests, nous avons imaginé un banc de test low-tech très facile d'usage. Malgré l'existence de bancs de test fabriqués par nos prédecesseurs, nous les trouvions peu pratiques. En effet, le premier banc composé de 7 demi-cercles de rayons différents fabriqués en imprimante 3D n'avait pas les bonnes dimensions pour placer le capteur et les pinces crocodiles.
 
 # 7.2 Résultats et analyse
 # 7.3 Discussion 
