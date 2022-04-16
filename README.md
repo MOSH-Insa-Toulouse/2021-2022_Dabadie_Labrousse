@@ -136,7 +136,22 @@ Nous avons donc décidé dans le temps imparti de créer un banc de test seuleme
 
 L’objectif de ce banc de test est de déterminer la variation relative de résistance de notre capteur en fonction de la déformation appliquée. Des cercles d’un rayon variant de 3cm à 1cm, avec un pas de 0,5cm sont tracés sur une feuille de papier. Le capteur graphite est quant à lui scotché par une extrémité sur une autre feuille rigide, et pincé au niveau des pins de l’autre extrémité. L’objectif est de courber la feuille de papier rigide sur laquelle est scotché le capteur, afin que celui-ci adopte la forme des cercles de différents rayons. 
 
-Le protocole de test est décrit dans la [Datasheet](https://github.com/MOSH-Insa-Toulouse/2021-2022_Dabadie_Labrousse/blob/main/Banc_de_Test_Datasheet/Datasheet.pdf)
+Le protocole de test est décrit dans la [Datasheet](https://github.com/MOSH-Insa-Toulouse/2021-2022_Dabadie_Labrousse/blob/main/Banc_de_Test_Datasheet/Datasheet.pdf). Nous avons réalisé ce protocole pour 3 différents types de crayons: H, HB, B.
+
 # 7.2 Résultats et analyse
+
+Pour les 3 types de crayons, nous obtenons des courbes quasi-linéaires, ce qui démontre le bon fonctionnement du capteur. L'ensemble des résultats sont disponibles dans le fichier [Banc de test](https://github.com/MOSH-Insa-Toulouse/2021-2022_Dabadie_Labrousse/blob/main/Banc_de_Test_Datasheet/Banc de test.xlsx).
+
 # 7.3 Discussion 
+
+Le banc de test imaginé est un banc de test destructif, c'est-à-dire que le capteur est fortement endommagé lors du protocole de test, notamment en tension. Ainsi, la non-répétabilité de la mesure pause un réel problème concernant sa précision. Les courbes obtenues lors des tests ne sont pas totalement linéaires, d'où une certaine imprécision. Enfin, le dépôt de graphite sur le capteur est totalement aléatoire, il est donc difficile de comparer directement la résistance des différents crayons.
+
+La création d'un banc de test low-tech non destructif par exemple à l'aide d'un servomoteur contrôlé par l'Arduino pourrait être une solution. De plus, un processus automatique de dépôt uniforme de graphite pourrait être mis en oeuvre.
+
+Néanmoins, la création de jauges de contrainte low-tech à base de graphite est réalisable, comme démontré dans ce projet.
+
 # 8. Auteurs
+
+Si vous avez des questions ou de remarques complémentaires concernant ce projet capteur, veuillez nous contacter:
+- Mattéo Labrousse: labrouss@insa-toulouse.fr
+- Raoul Dabadie: rdabadie@insa-toulouse.fr
