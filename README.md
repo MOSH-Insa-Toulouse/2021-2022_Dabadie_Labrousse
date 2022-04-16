@@ -133,6 +133,10 @@ Nous avons donc décidé dans le temps imparti de créer un banc de test seuleme
 
 - Banc de test fabriqué
 ![Figure 17: Banc de test ](./Banc_de_Test_Datasheet/Image_Banc_Test.png "Figure 17: Banc de test")
+
+L’objectif de ce banc de test est de déterminer la variation relative de résistance de notre capteur en fonction de la déformation appliquée. Des cercles d’un rayon variant de 3cm à 1cm, avec un pas de 0,5cm sont tracés sur une feuille de papier. Le capteur graphite est quant à lui scotché par une extrémité sur une autre feuille rigide, et pincé au niveau des pins de l’autre extrémité. L’objectif est de courber la feuille de papier rigide sur laquelle est scotché le capteur, afin que celui-ci adopte la forme des cercles de différents rayons. 
+
+Le protocole de test est décrit dans la [Datasheet](https://github.com/MOSH-Insa-Toulouse/2021-2022_Dabadie_Labrousse/blob/main/Banc_de_Test_Datasheet/Datasheet.pdf)
 # 7.2 Résultats et analyse
 # 7.3 Discussion 
 # 8. Auteurs
