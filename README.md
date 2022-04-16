@@ -38,7 +38,14 @@ Le capteur délivre un courant de faible intensité et la carte Arduino Uno mesu
 Le document nommé Simulation_Capteur présente l'essentiel des informations liées à la simlation du capteur.
 
 # 3. Code Arduino 
+# 3.1 Librairies nécessaires
+Le code rédigé sous Arduino utilisent plusieurs librairies permettant la gestion des différents élements du shield. Les librairies nécessaires sont:
+- [Adafruit_BusIO](https://github.com/MOSH-Insa-Toulouse/2021-2022_Dabadie_Labrousse/tree/main/Code_Arduino/Librairies/Adafruit_BusIO)
+- [Adafruit_GFX_Library](https://github.com/MOSH-Insa-Toulouse/2021-2022_Dabadie_Labrousse/tree/main/Code_Arduino/Librairies/Adafruit_GFX_Library)
+- [Adafruit_SSD1306](https://github.com/MOSH-Insa-Toulouse/2021-2022_Dabadie_Labrousse/tree/main/Code_Arduino/Librairies/Adafruit_SSD1306)
 
+# 3.2 Code
+Le [code Arduino](https://github.com/MOSH-Insa-Toulouse/2021-2022_Dabadie_Labrousse/tree/main/Code_Arduino/Code)
 # 4. Création du PCB sur le logiciel *KiCad*
 ## 4.1 Elaboration des symboles et empreintes
 
