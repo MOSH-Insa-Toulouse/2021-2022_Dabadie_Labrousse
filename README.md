@@ -45,7 +45,13 @@ Le code rédigé sous Arduino utilisent plusieurs librairies permettant la gesti
 - [Adafruit_SSD1306](https://github.com/MOSH-Insa-Toulouse/2021-2022_Dabadie_Labrousse/tree/main/Code_Arduino/Librairies/Adafruit_SSD1306)
 
 # 3.2 Code
-Le [code Arduino](https://github.com/MOSH-Insa-Toulouse/2021-2022_Dabadie_Labrousse/tree/main/Code_Arduino/Code)
+Le [code Arduino](https://github.com/MOSH-Insa-Toulouse/2021-2022_Dabadie_Labrousse/tree/main/Code_Arduino/Code) connecte tous les élements du shield ensemble et assure son bon fonctionnement. Les fonctionnalités principales du shield permises par le code Arduino sont:
+- acquisition et affichage de la résistance du capteur sur l'écran OLED en temps réel lors de sa déformation
+- acquisition et affichage de la tension mesurée par la carte Arduino UNO sur l'écran OLED en temps réel lors de la déformation du capteur
+- affichage d'un menu sur l'écran OLED contrôlé par l'encodeur rotatif
+- envoi et réception de données sur télephone Android via le module Bluetooth
+- Calibrage automatique du potentiomètre digital pour permettre une mesure de résistance aux conditions idéales de la carte Arduino Uno (tension mesurée lorsque le capteur est à plat vaut environ 2.8V (Range Arduino [0 - 5]V)).
+
 # 4. Création du PCB sur le logiciel *KiCad*
 ## 4.1 Elaboration des symboles et empreintes
 
@@ -115,8 +121,9 @@ L'application est dotée de 3 fonctionnalités:
 - Affichage de la tension de sortie du circuit transimpédance en temps réel
 - Affichage de la variation de résistance du capteur sous forme de graphique en temps réel
 
-# 6. Banc de test
-# 6.1 Description du banc de test
-# 6.2 Résultats et analyse
-# 6.3 Discussion 
-# 7. Auteurs
+# 7. Banc de test
+# 7.1 Description du banc de test
+
+# 7.2 Résultats et analyse
+# 7.3 Discussion 
+# 8. Auteurs
