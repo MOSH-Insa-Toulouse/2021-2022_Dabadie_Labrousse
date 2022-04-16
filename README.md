@@ -140,7 +140,7 @@ Le protocole de test est décrit dans la [Datasheet](https://github.com/MOSH-Ins
 
 # 7.2 Résultats et analyse
 
-Pour les 3 types de crayons, nous obtenons des courbes quasi-linéaires, ce qui démontre le bon fonctionnement du capteur. L'ensemble des résultats sont disponibles dans le fichier [Banc de test](https://github.com/MOSH-Insa-Toulouse/2021-2022_Dabadie_Labrousse/blob/main/Banc_de_Test_Datasheet/Banc de test.xlsx).
+Pour les 3 types de crayons, nous obtenons des courbes quasi-linéaires, ce qui démontre le bon fonctionnement du capteur. L'ensemble des résultats sont disponibles dans le fichier [Banc de test](https://github.com/MOSH-Insa-Toulouse/2021-2022_Dabadie_Labrousse/blob/main/Banc_de_Test_Datasheet/Banc%20de%20test.xlsx).
 
 # 7.3 Discussion 
 
