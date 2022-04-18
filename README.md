@@ -35,7 +35,7 @@ Liste du matériel nécessaire au projet:
 # 2. Simulation du circuit transimpédance avec le logiciel *LTSpice*
 
 Le capteur délivre un courant de faible intensité et la carte Arduino Uno mesure seulement des tensions entre 0 et 5V. Il est donc nécessaire d'intégrer un circuit transimpédance afin de convertir les variations de courant du capteur en variations de tension mesurable par la carte. Ce circuit doit aussi réduire les bruits liés à la mesure et amplifier le signal d'entrée pour pouvoir délivrer une tension mesurable.
-Le document nommé Simulation_Capteur présente l'essentiel des informations liées à la simlation du capteur.
+Le document nommé [Simulation_Capteur](https://github.com/MOSH-Insa-Toulouse/2021-2022_Dabadie_Labrousse/tree/main/Simulation_LTSpice) présente l'essentiel des informations liées à la simlation du capteur.
 
 # 3. Code Arduino 
 # 3.1 Librairies nécessaires
@@ -152,6 +152,6 @@ Néanmoins, la création de jauges de contrainte low-tech à base de graphite es
 
 # 8. Auteurs
 
-Si vous avez des questions ou de remarques complémentaires concernant ce projet capteur, veuillez nous contacter:
+Si vous avez des questions ou des remarques complémentaires concernant ce projet capteur, veuillez nous contacter:
 - Mattéo Labrousse: labrouss@insa-toulouse.fr
 - Raoul Dabadie: rdabadie@insa-toulouse.fr
