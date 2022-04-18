@@ -127,11 +127,13 @@ L'application est dotée de 3 fonctionnalités:
 Pour effectuer nos tests, nous avons imaginé un **banc de test low-tech** très facile d'usage. Malgré l'existence de bancs de test fabriqués par nos prédecesseurs, nous les trouvions peu pratiques. En effet, le premier banc composé de 7 demi-cercles de rayons différents fabriqués en imprimante 3D n'avait pas les bonnes dimensions pour placer le capteur et les pinces crocodiles.
 
 - Banc de test prédecesseurs
+
 ![Figure 16: Banc de test prédecesseurs](./Banc_de_Test_Datasheet/Image_Banc_Test_Predecesseurs.PNG "Figure 16: Banc de test prédecesseurs")
 
 Nous avons donc décidé dans le temps imparti de créer un banc de test seulement composé de cercles sur un papier, qui peut être réalisé n'importe où. 
 
 - Banc de test fabriqué
+
 ![Figure 17: Banc de test ](./Banc_de_Test_Datasheet/Image_Banc_Test.png "Figure 17: Banc de test")
 
 L’objectif de ce banc de test est de **déterminer la variation relative de résistance de notre capteur en fonction de la déformation appliquée**. Des cercles d’un rayon variant de 3cm à 1cm, avec un pas de 0,5cm sont tracés sur une feuille de papier. Le capteur graphite est quant à lui scotché par une extrémité sur une autre feuille rigide, et pincé au niveau des pins de l’autre extrémité. L’objectif est de courber la feuille de papier rigide sur laquelle est scotché le capteur, afin que celui-ci adopte la forme des cercles de différents rayons. 
