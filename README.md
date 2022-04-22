@@ -144,7 +144,12 @@ Le protocole de test est décrit dans la [Datasheet](https://github.com/MOSH-Ins
 
 Pour les 3 types de crayons, nous obtenons des **courbes quasi-linéaires**, ce qui démontre le bon fonctionnement du capteur. L'ensemble des résultats sont disponibles dans le fichier [Banc de test](https://github.com/MOSH-Insa-Toulouse/2021-2022_Dabadie_Labrousse/blob/main/Banc_de_Test_Datasheet/Banc%20de%20test.xlsx).
 
-# 7.3 Discussion 
+# 7.3 Comparaison avec le Flex Sensor *SEN-10264*
+
+Nous avons réalisé le même protocole de mesure pour un capteur de déformation industriel, le *SEN-10264*. Les résultats des mesures sont disponibles dans le [Banc de test](https://github.com/MOSH-Insa-Toulouse/2021-2022_Dabadie_Labrousse/blob/main/Banc_de_Test_Datasheet/Banc%20de%20test.xlsx). Nous observons que la sensibilité du capteur industriel (correspondant au coefficient de la droite) est meilleure en tension que pour les capteurs graphites. Cependant, le Flex Sensor *SEN-10264* a une sensibilité beaucoup plus faible que les capteurs expérimentaux en tension.
+
+
+# 7.4 Discussion 
 
 Le banc de test imaginé est un banc de **test destructif**, c'est-à-dire que le capteur est fortement endommagé lors du protocole de test, notamment en tension. Ainsi, la non-répétabilité de la mesure pause un réel problème concernant sa précision. Les courbes obtenues lors des tests ne sont pas totalement linéaires, d'où une certaine imprécision. Enfin, le dépôt de graphite sur le capteur est totalement aléatoire, il est donc difficile de comparer directement la résistance des différents crayons.
 
