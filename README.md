@@ -146,7 +146,7 @@ Pour les 3 types de crayons, nous obtenons des **courbes quasi-linéaires**, ce 
 
 # 7.3 Comparaison avec le Flex Sensor *SEN-10264*
 
-Nous avons réalisé le même protocole de mesure pour un capteur de déformation industriel, le *SEN-10264*. Les résultats des mesures sont disponibles dans le [Banc de test](https://github.com/MOSH-Insa-Toulouse/2021-2022_Dabadie_Labrousse/blob/main/Banc_de_Test_Datasheet/Banc%20de%20test.xlsx). Nous observons que la sensibilité du capteur industriel (correspondant au coefficient de la droite) est meilleure en tension que pour les capteurs graphites. Cependant, le Flex Sensor *SEN-10264* a une sensibilité beaucoup plus faible que les capteurs expérimentaux en compression.
+Nous avons réalisé le même protocole de mesure pour un capteur de déformation industriel *SEN-10264*. Les résultats des mesures sont disponibles dans le [Banc de test](https://github.com/MOSH-Insa-Toulouse/2021-2022_Dabadie_Labrousse/blob/main/Banc_de_Test_Datasheet/Banc%20de%20test.xlsx). Nous observons que la sensibilité du capteur industriel (correspondant au coefficient de la droite) est meilleure en tension que pour les capteurs graphites. Cependant, le Flex Sensor *SEN-10264* a une sensibilité beaucoup plus faible que les capteurs expérimentaux en compression.
 
 
 # 7.4 Discussion 
@@ -155,7 +155,7 @@ Le banc de test imaginé est un banc de **test destructif**, c'est-à-dire que l
 
 La création d'un banc de test low-tech non destructif par exemple à l'aide d'un servomoteur contrôlé par l'Arduino pourrait être une solution. De plus, un processus automatique de dépôt uniforme de graphite pourrait être mis en oeuvre.
 
-Néanmoins, la **création de jauges de contrainte low-tech à base de graphite est réalisable**, comme démontré dans ce projet.
+Néanmoins, la **création de jauges de contrainte low-tech à base de graphite est réalisable**, comme démontré dans ce projet. Après comparaison avec un capteur de déformation industriel, nous pouvons même conclure que la jauge de contrainte low-tech est plus performante que ce capteur industriel pour une application en compression. Cependant, pour un usage en tension, le capteur industriel est plus adapté.
 
 # 8. Auteurs
 
