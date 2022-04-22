@@ -155,7 +155,7 @@ Le banc de test imaginé est un banc de **test destructif**, c'est-à-dire que l
 
 La création d'un banc de test low-tech non destructif par exemple à l'aide d'un servomoteur contrôlé par l'Arduino pourrait être une solution. De plus, un processus automatique de dépôt uniforme de graphite pourrait être mis en oeuvre.
 
-Néanmoins, la **création de jauges de contrainte low-tech à base de graphite est réalisable**, comme démontré dans ce projet.
+Néanmoins, la **création de jauges de contrainte low-tech à base de graphite est réalisable**, comme démontré dans ce projet. Après comparaison avec un capteur de déformation industriel, nous pouvons même conclure que la jauge de contrainte low-tech est plus performante que ce capteur industriel pour une application en compression. Cependant, pour un usage en tension, le capteur industriel est plus adapté.
 
 # 8. Auteurs
 
